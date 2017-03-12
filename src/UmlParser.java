@@ -6,5 +6,7 @@ public class UmlParser {
 			System.out.println("Error: Please enter input file and output file paths!");
 			System.exit(0);
 		}
+		String inputFilePath=args[1];
+		String ouputFilePath=args[2];
 	}
 }
