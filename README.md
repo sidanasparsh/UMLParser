@@ -11,5 +11,11 @@ https://waffle.io/sidanasparsh/UMLParser
 
 
 Informative sources for UML diagrams:
+
 http://edn.embarcadero.com/article/31863
 http://www.developer.com/design/article.php/1553851
+
+Informative Sources to learn Sequence diagrams:
+
+http://creately.com/blog/diagrams/sequence-diagram-tutorial/
+https://www.smartdraw.com/sequence-diagram/
