@@ -1,3 +1,8 @@
+package com.project.umlparser;
+/**
+ * @author ssjsparsh
+ *Main class file taking the input parameters and calling the required functions.
+ */
 public class UmlParser {
 
 	public static void main(String[] args) {
