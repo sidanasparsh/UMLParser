@@ -12,5 +12,9 @@ public class UmlParser {
 			System.out.println("Invalid input path");
 			System.exit(0);
 		}
+		if(ouputFilePath==" "){
+			System.out.println("Invalid output path");
+			System.exit(0);
+		}
 	}
 }
