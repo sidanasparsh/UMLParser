@@ -8,12 +8,8 @@ public class UmlParser {
 		}
 		String inputFilePath=args[1];
 		String ouputFilePath=args[2];
-		if(inputFilePath==" "){
-			System.out.println("Invalid input path");
-			System.exit(0);
-		}
-		if(ouputFilePath==" "){
-			System.out.println("Invalid output path");
+		if(inputFilePath==" " || ouputFilePath==" "){
+			System.out.println("Invalid input/output file path");
 			System.exit(0);
 		}
 	}
