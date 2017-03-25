@@ -8,3 +8,8 @@ umlparser <source folder> <output file name>
 
 #Waffle.io URL:
 https://waffle.io/sidanasparsh/UMLParser
+
+
+Informative sources for UML diagrams:
+http://edn.embarcadero.com/article/31863
+http://www.developer.com/design/article.php/1553851
