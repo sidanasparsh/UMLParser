@@ -8,9 +8,12 @@ public class UmlParser {
 		// TODO Auto-generated method stub
 		if(args.length!=2){
 			if(args.length>2){
-			System.out.println("Error: You have more than the required input parameter!");
+			System.out.println("Error: Please enter input file and output file paths!");
 			System.exit(0);}
-
+			else{
+				System.out.println("Error: you have more parameters than2");
+				System.exit(0);
+			}
 		}
 		String inputFilePath=args[1];
 		String ouputFilePath=args[2];
