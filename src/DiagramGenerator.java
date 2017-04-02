@@ -1,7 +1,10 @@
 public class DiagramGenerator {
-	String sourceFile;
-	String Destinationpath;
-
+	private static String sourceFile;
+	private static String destinationPath;
+	private DiagramGenerator(String sourceFile, String destinationPath){
+		this.sourceFile=sourceFile;
+		this.destinationPath=destinationPath;
+	}
 	public static void generateDiagramImage(String outputFilePath){
 
 	}
