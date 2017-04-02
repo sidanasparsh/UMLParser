@@ -1,7 +1,7 @@
 public class DiagramGenerator {
 	private static String sourceFile;
 	private static String destinationPath;
-	private DiagramGenerator(String sourceFile, String destinationPath){
+	DiagramGenerator(String sourceFile, String destinationPath){
 		this.sourceFile=sourceFile;
 		this.destinationPath=destinationPath;
 	}
