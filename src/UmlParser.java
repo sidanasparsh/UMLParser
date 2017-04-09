@@ -25,9 +25,9 @@ public class UmlParser {
 		SequenceDiagramGenerator sequenceGenerator=null;
 
 		String diagramType=args[0];
-		if(diagramType.equals("class"))
+		if(diagramType.toLowerCase().equals("class"))
 			 diagramGenerator=new DiagramGenerator(inputFilePath, ouputFilePath);
-		else if(diagramType.equals("sequence"))
+		else if(diagramType.toLowerCase().equals("sequence"))
 			 sequenceGenerator= new SequenceDiagramGenerator();
 		else{
 			System.out.println("Invalid diagram type");
@@ -36,3 +36,4 @@ public class UmlParser {
 
 
 	}
+}
