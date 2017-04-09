@@ -15,16 +15,17 @@ public class DiagramGenerator {
 	}
 	  public void parse() {
 		  compilationList = getCompilationList(sourceFile);
-	        for (CompilationUnit compilationUnit : compilationList)
-	            stringyUML += getParsedString(compilationUnit);
+	        for (CompilationUnit compilationUnit : compilationList){
+						if(getParsedString(compilationUnit)!=null)
+	            stringyUML += getParsedString(compilationUnit);}
 	        System.out.println("YUML String: " + stringyUML);
 	    }
-	private String getParsedString(CompilationUnit cu) {
+	private String getParsedString(CompilationUnit compilationUnit) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 	public static ArrayList<CompilationUnit> getCompilationList(String str){
-        ArrayList<CompilationUnit> compilationArray = new ArrayList<CompilationUnit>();
+        ArrayList<CompilationUnit> compilationList = new ArrayList<CompilationUnit>();
 
 		return compilationArray;
 	}
