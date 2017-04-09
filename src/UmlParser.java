@@ -1,6 +1,4 @@
-import javax.tools.DiagnosticCollector;
 import com.project.umlparser.DiagramGenerator;
-
 /**
  * @author ssjsparsh
  *Main class file taking the input parameters and calling the required functions.
