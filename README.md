@@ -21,3 +21,10 @@ Informative Sources to learn Sequence diagrams:
 http://creately.com/blog/diagrams/sequence-diagram-tutorial/
 
 https://www.smartdraw.com/sequence-diagram/
+
+Somemore relavent tutorials for UML Reverse Engineering:
+
+https://www.youtube.com/watch?v=YrZQ7lMSsH0&list=PLvtlfwjpri67G3jEJRrqUXsZAdXitcjCU
+
+https://www.youtube.com/watch?v=6ZxIAAPIcIU
+
