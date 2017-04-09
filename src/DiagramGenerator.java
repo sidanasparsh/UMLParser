@@ -18,7 +18,7 @@ public class DiagramGenerator {
 	        compilationArray = getCompilationList(sourceFile);
 	        for (CompilationUnit cu : compilationArray)
 	            stringyUML += getParsedString(cu);
-
+					System.out.println("YUML String: " + stringyUML);
 	    }
 	private String getParsedString(CompilationUnit compilationUnit) {
 		// TODO Auto-generated method stub
