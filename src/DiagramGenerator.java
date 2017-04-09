@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import japa.parser.ast.CompilationUnit;
@@ -8,6 +9,7 @@ public class DiagramGenerator {
 	private static String destinationPath;
 	ArrayList<CompilationUnit> compilationList;
 	private static String stringyUML;
+	HashMap<String, Boolean> map;
 
 	DiagramGenerator(String sourceFile, String destinationPath){
 		this.sourceFile=sourceFile;
@@ -18,8 +20,12 @@ public class DiagramGenerator {
 	        for (CompilationUnit compilationUnit : compilationList){
 						if(getParsedString(compilationUnit)!=null)
 	            stringyUML += getParsedString(compilationUnit);}
+	        makeCompilationMap(compilationList);
 	        System.out.println("YUML String: " + stringyUML);
 	    }
+	private void makeCompilationMap(ArrayList<CompilationUnit> compilationList) {
+		map=new HashMap<String, Boolean>();
+	}
 	private String getParsedString(CompilationUnit compilationUnit) {
 		// TODO Auto-generated method stub
 		return null;
@@ -27,6 +33,6 @@ public class DiagramGenerator {
 	public static ArrayList<CompilationUnit> getCompilationList(String str){
         ArrayList<CompilationUnit> compilationList = new ArrayList<CompilationUnit>();
 
-		return compilationArray;
+		return compilationList;
 	}
 }
