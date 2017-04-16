@@ -33,4 +33,7 @@ public class DiagramGenerator {
 		compilationList = new ArrayList<CompilationUnit>();
 		return compilationList;
 	}
+	private String generateScopeRepresnetations(String varialbleScopr) {
+        return null;
+    }
 }
