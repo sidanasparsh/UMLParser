@@ -33,7 +33,9 @@ public class DiagramGenerator {
 		compilationList = new ArrayList<CompilationUnit>();
 		return compilationList;
 	}
-	private String generateScopeRepresnetations(String varialbleScopr) {
+	private String generateScopeRepresnetations(String varialbleScope) {
+        if(varialbleScope.equals("public"))
+        	return "+";
         return null;
     }
 }
