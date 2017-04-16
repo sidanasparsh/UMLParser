@@ -9,5 +9,8 @@ public class SequenceDiagramGenerator {
 	private static ArrayList<CompilationUnit> compilationList;
 	private static String stringyUML;
 	private static HashMap<String, Boolean> map;
-
+	SequenceDiagramGenerator(String sourceFile, String destinationPath){
+		this.sourceFile=sourceFile;
+		this.destinationPath=destinationPath;
+	}
 }
