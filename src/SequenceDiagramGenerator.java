@@ -21,4 +21,7 @@ public class SequenceDiagramGenerator {
 	        makeCompilationMap(compilationList);
 	        System.out.println("YUML String: " + stringyUML);
 	    }
+	private void makeCompilationMap(ArrayList<CompilationUnit> compilationList) {
+			map=new HashMap<String, Boolean>();
+	}
 }
