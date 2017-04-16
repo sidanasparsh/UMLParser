@@ -33,12 +33,12 @@ public class DiagramGenerator {
 		compilationList = new ArrayList<CompilationUnit>();
 		return compilationList;
 	}
-	private String generateScopeRepresnetations(String varialbleScope) {
-        if(varialbleScope.equals("public"))
+	private String generateScopeRepresnetations(String variableScope) {
+        if(variableScope.equals("public"))
         	return "+";
-        else if(varialbleScope.equals("private"))
+        else if(variableScope.equals("private"))
         	return "-";
-        else if(varialbleScope.equals("package") || varialbleScope.equals(""))
+        else if(variableScope.equals("package") || variableScope.equals(""))
         	return "#";
         return null;
     }
