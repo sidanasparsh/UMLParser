@@ -28,4 +28,7 @@ public class SequenceDiagramGenerator {
 		compilationList = new ArrayList<CompilationUnit>();
 		return compilationList;
 	}
+	private String getParsedString(CompilationUnit compilationUnit) {
+		return null;
+	}
 }
