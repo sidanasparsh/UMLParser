@@ -13,4 +13,12 @@ public class SequenceDiagramGenerator {
 		this.sourceFile=sourceFile;
 		this.destinationPath=destinationPath;
 	}
+	public void parse() {
+		  compilationList = getCompilationList(sourceFile);
+	        for (CompilationUnit compilationUnit : compilationList){
+						if(getParsedString(compilationUnit)!=null)
+	            stringyUML += getParsedString(compilationUnit);}
+	        makeCompilationMap(compilationList);
+	        System.out.println("YUML String: " + stringyUML);
+	    }
 }
