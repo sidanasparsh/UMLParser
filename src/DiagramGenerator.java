@@ -39,6 +39,9 @@ public class DiagramGenerator {
 	}else if(varialbleScope.equals("private")){
     	return "-";
     }
+	else if(varialbleScope.equals("package")){
+		return "#";
+	}
     return null;
     }
 }
