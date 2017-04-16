@@ -1,4 +1,5 @@
 import com.project.umlparser.DiagramGenerator;
+
 /**
  * @author ssjsparsh
  *Main class file taking the input parameters and calling the required functions.
@@ -29,9 +30,7 @@ public class UmlParser {
 			 sequenceGenerator= new SequenceDiagramGenerator();
 		else{
 			System.out.println("Invalid diagram type");
+			System.exit(-1);
 		}
-
-
-
 	}
 }
