@@ -31,4 +31,5 @@ public class SequenceDiagramGenerator {
 	private String getParsedString(CompilationUnit compilationUnit) {
 		return null;
 	}
+	public void displayCompilationMap(){}
 }
