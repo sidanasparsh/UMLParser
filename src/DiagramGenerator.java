@@ -42,4 +42,5 @@ public class DiagramGenerator {
         	return "#";
         return null;
     }
+	public void displayCreatedMap(){}
 }
