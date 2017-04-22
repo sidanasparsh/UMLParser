@@ -1,3 +1,5 @@
+package com.project.umlparser;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -45,5 +47,6 @@ public class DiagramGenerator {
 	public void displayCreatedMap(){
 		for(String key:map.keySet())
 			System.out.println(key+ "-"+map.get(key));
+		System.out.println("-------------------------");
 	}
 }
