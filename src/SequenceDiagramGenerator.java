@@ -20,6 +20,7 @@ public class SequenceDiagramGenerator {
 	            stringyUML += getParsedString(compilationUnit);}
 	        makeCompilationMap(compilationList);
 	        System.out.println("YUML String: " + stringyUML);
+					displayCompilationMap();
 	    }
 	private void makeCompilationMap(ArrayList<CompilationUnit> compilationList) {
 		map=new HashMap<String, Boolean>();
