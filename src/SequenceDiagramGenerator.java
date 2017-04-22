@@ -33,6 +33,6 @@ public class SequenceDiagramGenerator {
 	}
 	public void displayCompilationMap(){
 		for(String key:map.keySet())
-			System.out.println(key);
+			System.out.println(key+ "-"+map.get(key));
 	}
 }
