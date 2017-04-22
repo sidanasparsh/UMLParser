@@ -42,5 +42,8 @@ public class DiagramGenerator {
         	return "#";
         return null;
     }
-	public void displayCreatedMap(){}
+	public void displayCreatedMap(){
+		for(String key:map.keySet())
+			System.out.println(key);
+	}
 }
