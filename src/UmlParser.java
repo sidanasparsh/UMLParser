@@ -8,6 +8,8 @@ public class UmlParser {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
+
 		if(args.length!=2){
 			if(args.length>2){
 			System.out.println("Error: You have more than the required input parameter!");
@@ -21,13 +23,13 @@ public class UmlParser {
 			System.exit(0);
 		}
 		DiagramGenerator diagramGenerator=new DiagramGenerator(args[1], args[2]);
-		SequenceDiagramGenerator sequenceGenerator=null;
+		SequenceDiagramGenerator sequencDiagramGenerator=new SequenceDiagramGenerator(args[1], args[2]);
 
 		String diagramType=args[0];
 		if(diagramType.toLowerCase().equals("class"))
 			 diagramGenerator=new DiagramGenerator(inputFilePath, ouputFilePath);
 		else if(diagramType.toLowerCase().equals("sequence"))
-		sequenceGenerator= new SequenceDiagramGenerator(inputFilePath, ouputFilePath);
+			sequencDiagramGenerator= new SequenceDiagramGenerator(inputFilePath, ouputFilePath);
 		else{
 			System.out.println("Invalid diagram type");
 			System.exit(-1);
