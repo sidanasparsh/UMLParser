@@ -1,5 +1,3 @@
-package com.project.umlparser;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -24,6 +22,7 @@ public class DiagramGenerator {
             stringyUML += getParsedString(compilationUnit);}
         makeCompilationMap(compilationList);
         System.out.println("YUML String: " + stringyUML);
+        displayCreatedMap();
     }
 	private void makeCompilationMap(ArrayList<CompilationUnit> compilationList) {
 		map=new HashMap<String, Boolean>();
@@ -49,4 +48,5 @@ public class DiagramGenerator {
 			System.out.println(key+ "-"+map.get(key));
 		System.out.println("-------------------------");
 	}
+
 }
