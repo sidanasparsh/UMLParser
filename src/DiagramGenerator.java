@@ -44,6 +44,6 @@ public class DiagramGenerator {
     }
 	public void displayCreatedMap(){
 		for(String key:map.keySet())
-			System.out.println(key);
+			System.out.println(key+ "-"+map.get(key));
 	}
 }
