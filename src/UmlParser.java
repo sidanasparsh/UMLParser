@@ -20,7 +20,7 @@ public class UmlParser {
 			System.out.println("Invalid input/output file path");
 			System.exit(0);
 		}
-		DiagramGenerator diagramGenerator=null;
+		DiagramGenerator diagramGenerator=new DiagramGenerator(args[1], args[2]);
 		SequenceDiagramGenerator sequenceGenerator=null;
 
 		String diagramType=args[0];
